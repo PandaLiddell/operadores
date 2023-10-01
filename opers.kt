@@ -8,7 +8,7 @@ fun main(){
     print("Introduce el valor de y2 (solo numeros):")
     val y2: Int = readln().toInt()
     val num = y2.minus(y1)
-    val dem = x2.minus(y1)
+    val dem = x2.minus(x1)
     val d1 = num/dem
     val d2 = num.toFloat()/dem.toFloat()
     println("valor de la pendiente erronea: $d1")
